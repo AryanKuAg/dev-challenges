@@ -1,0 +1,9 @@
+#hobbies__img{
+    /* object-fit: contain; */
+    width: 100%;
+    border-radius: 15px;
+}
+
+.hobbiesItem__div > *{
+margin-top: 10px;
+}

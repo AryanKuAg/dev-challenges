@@ -1,0 +1,30 @@
+.upperPersonalDetail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.upperPersonalDetail div > * {
+    margin-bottom: 8px;
+}
+
+.pDetail__contact__div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.pDetail__contact__div strong p {
+    color: rgb(53, 53, 53);
+}
+.pDetail__contact__div strong {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.pDetail__icon{
+    width: 20px;
+    height: 20px;
+}

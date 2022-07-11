@@ -1,0 +1,41 @@
+.blogs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 96%;
+}
+
+.blogs p {
+    width: 90%;
+}
+
+.blogs__head{
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+#blogs__img{
+    position:absolute;
+    border-radius: 20px 0  0 20px;
+    right: -15px;
+    width: 40%;
+}
+
+.blogs__head h3{
+    margin-top: 20px;
+    margin-bottom: 120px;
+    width: 45%;
+   font-size: 35px;
+}
+
+#blogs__text{
+    color: rgba(128, 128, 128, 0.336);
+}
+
+#blogs__link{
+    margin-top: auto;
+    color: #00bcd4;
+    text-decoration: none;
+}

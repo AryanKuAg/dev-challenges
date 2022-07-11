@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@500;700&family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Interior Consultant Master Challenge</title>
+  </head>
+  <body>
+    <div class="menu-appear">
+      <div class="cross">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" id="close" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+    </div>
+    <div id="links">
+        <a href="#" >Home</a>
+        <a href="#">Collection</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
+    
+    <style>
+        a{
+            padding: 20px;
+        }
+        body{
+            height: calc(100vh);
+            /* overflow-y: hidden; */
+        }
+        #links {
+            display: flex;
+            height: calc(100vh - 50px);
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .cross{
+            height: 50px;
+            display: flex;
+            justify-content: flex-end;
+            
+        }
+    
+        #close{
+            width: 40px;
+        }
+    </style>
+     </div>
+    <div class="container">
+     
+      <header>
+        <div>
+          <p class="logo">THIS INTERIOR</p>
+        </div>
+        <nav>
+          <ul id="nav__bar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Collection</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <svg xmlns="http://www.w3.org/2000/svg" id='menu__icon' class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </nav>
+      </header>
+      <section>
+        
+        <div id="grid-text">
+          <h1 id="section__heading">Modern interior</h1>
+          <p>
+            A full-Service residential & commercial interior design and staging
+            company offering professional organizing & eco-services.
+          </p><div class="more"><p id="read-more">Read More </p><svg xmlns="http://www.w3.org/2000/svg" class="right" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg></div>
+          
+        </div>
+        <div class="section__img">
+          <img id="pic1" src="./photo1.png"/>
+          <div class="card">
+            <div id="card-first-div">
+              <img src="./photo2.png" id="image-2"><div id="girl-text"><strong><p >Poopy Girl</p></strong> <p id="about-girl">Alemantrix's Tea Server</p></div>
+            </div>
+            <div><p id="card-down-text">Designed in 2022 by Alemantrix</p></div>
+          </div>
+        </div>
+      </section>
+      <footer>created by <strong><u>Alemantrix</u></strong> - devChallenges.io</footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

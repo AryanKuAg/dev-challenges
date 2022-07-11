@@ -1,0 +1,25 @@
+#pCard__img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pCard__tags{
+    margin: 20px 0;
+}
+
+.pCard__des{
+    margin: 20px 0;
+    margin-bottom: 50px;
+}
+
+.pCard__button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+/* .pCard__button{
+    border-radius: 15px;
+} */

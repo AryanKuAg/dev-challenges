@@ -1,0 +1,1 @@
+You just have to set backend url in axios cause its sets as a localhsot

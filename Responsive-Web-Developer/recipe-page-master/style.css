@@ -1,0 +1,135 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 20px auto;
+}
+
+header p{
+    margin-top: 20px;
+    max-width: 700px;
+    font-weight: 500;
+}
+
+.header__title{
+    margin-top: 50px;
+    font-size: 3rem;
+    line-height: 64px;
+    font-family: 'Playfair Display', serif;
+}
+
+#header__photo{
+    width: 100%;
+    display: inline-block;
+    margin: 40px auto;
+}
+
+.main__title{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px ;
+    
+}
+
+.main__list{
+    list-style-type:none;
+}
+
+.input__checkbox{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.main__list__items{
+    margin-bottom: 20px;
+}
+
+
+.main__des{
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    /* margin: 30px 0; */
+    margin-bottom: 40px;
+}
+
+
+.main__order__list {
+    list-style: none;
+    counter-reset: item;
+  }
+  .main__order__list__item{
+    counter-increment: item;
+    margin-bottom: 20px;
+  }
+  .main__order__list__item:before {
+    margin-right: 10px;
+    content: counter(item);
+    background: #F2994A;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px;
+    /* width: 2.2em;
+    height: 2.2em; */
+    text-align: center;
+    display: inline-block;
+  }
+
+  section{
+      display: grid;
+      grid-template-columns: 70% 1fr;
+      column-gap: 50px;
+  }
+
+.aside__item {
+    display:flex;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.aside__icon {
+    width: 50px;
+    margin-right: 20px;
+    color: #2c2b28;
+}
+
+h4{
+    font-size: 15px;
+    margin: 4px 0;
+    font-weight: 500;
+    color: grey;
+}
+
+.first__icon {
+    color: #F2994A;
+}
+
+footer p {
+    margin-top: 50px;
+    text-align: center;
+    color: grey;
+}
+@media only screen and (max-width: 750px){
+    .header__title{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 1000px){
+    section {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .clock__aside__item{
+        display: flex;
+        justify-content: space-between;
+    }
+}

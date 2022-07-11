@@ -1,0 +1,49 @@
+.app__fragment{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.app__section__grid{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+  margin-bottom: 20px;
+}
+
+#app__section__blogs{
+ grid-row: 1/3;
+ grid-column: 2/-1;
+}
+
+#app__section__hobbies{
+  grid-row: 2/-1;
+ grid-column: 1/2;
+}
+
+#app__section__experience{
+  grid-row: 3/-1;
+ grid-column: 2/-1;
+}
+
+footer p {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.app__pagination{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin-left: auto;
+}
+
+#pagination{
+  margin: 40px 0;
+  margin-bottom: 100px;
+  
+}

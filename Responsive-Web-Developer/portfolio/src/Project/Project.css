@@ -1,0 +1,6 @@
+.project__div {
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+    margin: 15px 0;
+}

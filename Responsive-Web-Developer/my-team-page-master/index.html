@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Team Page Master</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 80%;
+        margin: 0 auto;
+      }
+      header {
+        display: flex;
+        margin-top: 40px;
+        justify-content: space-between;
+      }
+
+      h1 {
+        font-family: "PT Serif", serif;
+        font-weight: 700;
+      }
+      header div {
+        width: 300px;
+      }
+      section {
+        margin: 60px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 100px;
+        row-gap: 50px;
+      }
+
+      #one::after,
+      #two::after,
+      #three::after,
+      #four::after,
+      #five::after,
+      #six::after {
+        content: "PRODUCT OWNER";
+        position: absolute;
+        top: 40px;
+        font-family: "PT Serif", serif;
+        font-weight: 400;
+        right: -70px;
+        size: 12px;
+        transform: rotate(90deg);
+      }
+      #one::after {
+        right: -90px;
+        top: 55px;
+      }
+
+      #two::after {
+        content: "ART DIRECTOR";
+        right: -80px;
+        top: 45px;
+      }
+      #three::after {
+        content: "TECH LEAD";
+        top: 35px;
+        right: -65px;
+      }
+
+      #four::after {
+        content: "UX DESIGNER";
+        top: 40px;
+        right: -70px;
+      }
+      #five::after {
+        content: "DEVELOPER";
+        top: 35px;
+        right: -65px;
+      }
+      #six::after {
+        content: "DEVELOPER";
+        top: 35px;
+        right: -65px;
+      }
+      h3 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+      }
+      p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+      }
+      .profile-item {
+        position: relative;
+      }
+
+      .profile-item p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+
+      .profile-item:nth-child(3n - 1) {
+        margin-top: 100px;
+      }
+
+      footer {
+        text-align: center;
+        margin-bottom: 10px;
+        color: rgba(169, 166, 166, 0.906);
+      }
+
+      @media screen and (max-width: 600px) {
+        section {
+          grid-template-columns: 1fr 1fr;
+          column-gap: 100px;
+          row-gap: 50px;
+        }
+        .profile-item:nth-child(2n) {
+          margin-top: 100px;
+        }
+        .fifth {
+          margin-top: 0 !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>The creative crew</h1>
+        <div>
+          <h3>WHO WE ARE</h3>
+          <p>
+            We are team of creatively diverse, driven, innovative individuals
+            working in various locations from the world.
+          </p>
+        </div>
+      </header>
+      <section>
+        <div class="profile-item">
+          <div id="one">
+            <img src="./photo1.png" alt="The first photo" />
+            <p>Bill Mahoney</p>
+          </div>
+        </div>
+        <div class="profile-item">
+          <div id="two">
+            <img src="./photo2.png" alt="The first photo" />
+            <p>Saba Cabrera</p>
+          </div>
+        </div>
+        <div class="profile-item">
+          <div id="three">
+            <img src="./photo3.png" alt="The first photo" />
+            <p>Shae Le</p>
+          </div>
+        </div>
+
+        <div class="profile-item">
+          <div id="four">
+            <img src="./photo4.png" alt="The first photo" />
+            <p>Skylah Lu</p>
+          </div>
+        </div>
+        <div class="profile-item fifth">
+          <div id="five">
+            <img src="./photo5.png" alt="The first photo" />
+            <p>Griff Richards</p>
+          </div>
+        </div>
+        <div class="profile-item">
+          <div id="six">
+            <img src="./photo6.png" alt="The first photo" />
+            <p>Stan John</p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <p>created by Alemantrix - devChallenges.io</p>
+      </footer>
+    </div>
+  </body>
+</html>

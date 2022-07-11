@@ -1,0 +1,9 @@
+.shadowCard__box{
+    /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); */
+
+box-shadow: 1px 36px 53px -60px rgb(66, 66, 66);
+    padding: 15px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    height: 100%;
+}

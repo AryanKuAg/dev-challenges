@@ -1,0 +1,16 @@
+.hobbies__div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+    
+    
+}
+
+.hobbies{
+    height: 100%;
+}
+
+.hobbies h2 {
+    margin-bottom: 20px;
+}

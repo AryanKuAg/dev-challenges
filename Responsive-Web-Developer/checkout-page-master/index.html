@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Checkout Page</title>
+  </head>
+  <body>
+    <h1>Checkout</h1>
+    <div class="container">
+      
+      <section>
+        
+        <h2><strong>Contact information</strong></h2>
+        <div class="input__box">
+          <label for="name">E-mail</label>
+          <input type="text" id="name" placeholder="Enter your email..." />
+        </div>
+        <div class="input__box">
+          <label for="phone">Phone</label>
+          <input type="text" id="phone" placeholder="Enter your phone..." />
+        </div>
+
+        <h2><strong>Shipping address</strong></h2>
+        <div class="input__box">
+          <label for="full">Full name</label>
+          <input type="text" id="full" value="Aryan Agrawal" />
+        </div>
+        <div class="input__box">
+          <label for="address">Address</label>
+          <input type="text" id="address" placeholder="Your address..." />
+        </div>
+        <div class="input__box">
+          <label for="city">City</label>
+          <input type="text" id="city" placeholder="Your city..." />
+        </div>
+        <div class="double__input">
+          <div class="input__box no__margin">
+            <label for="country">Country</label>
+            <input
+              list="select__country"
+              id="country"
+              placeholder="Your country..."
+            />
+            <datalist id="select__country">
+              <option value="India"></option>
+              <option value="USA"></option>
+              <option value="Japan"></option>
+            </datalist>
+          </div>
+          <div class="input__box no__margin">
+            <label for="postal">Postal code</label>
+            <input type="text" id="postal" placeholder="Your postal code..." />
+          </div>
+        </div>
+        <div class="bottom__checkbox__div">
+          <input type="checkbox" id="bottom__checkbox" />
+          <span>Save this information for next time</span>
+        </div>
+        <div class="bottom__button__div">
+          <button id="btn">Continue</button>
+        </div>
+      </section>
+      <aside>
+        <div class="aside__container">
+          <div class="aside__item__div">
+            <img src="./photo1.png" alt="Bag" class="aside__img" />
+            <div class="aside__sec__item">
+              <div>
+                <h2 class="item__title">Vintage Backbag</h2>
+              <div class="price">
+                <p>$54.99</p>
+                <h3><strike>$94.99</strike></h3>
+              </div>
+              </div>
+              
+              <div class="count">
+                <div class="plus-minus">-</div>
+                <p>1</p>
+                <div class="plus-minus">+</div>
+              </div>
+            </div>
+          </div>
+          <div class="aside__item__div">
+            <img src="./photo2.png" alt="Bag" class="aside__img" />
+            <div class="aside__sec__item">
+              <div>
+                <h2 class="item__title">Levi Shoes</h2>
+              <div class="price">
+                <p>$74.99</p>
+                <h3><strike>$124.99</strike></h3>
+              </div>
+              </div>
+              
+              <div class="count">
+                <div class="plus-minus">-</div>
+                <p>1</p>
+                <div class="plus-minus">+</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr id="seperator">
+        <div class="costs"><h3>Shipping</h3> <h3>$19</h3></div>
+        <hr>
+        <div class="costs"><h3>Total</h3> <h3>$148.98</h3></div>
+
+      </aside>
+      
+    </div>
+    <footer><p>created by <strong><u>Alemantrix</u></strong> - devChallenges.io</p></footer>
+  </body>
+</html>

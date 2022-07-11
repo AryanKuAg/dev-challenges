@@ -1,0 +1,15 @@
+.expItem{
+    display: flex;
+}
+
+#exp__logo{
+    width: 200px;
+    height: 200px;
+}
+
+.exp__flex__div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px auto;
+}
