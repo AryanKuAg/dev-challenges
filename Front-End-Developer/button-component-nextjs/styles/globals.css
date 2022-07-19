@@ -1,3 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply font-bold py-2 px-4 rounded-full;
+  }
+}
+
 html,
 body {
   padding: 0;

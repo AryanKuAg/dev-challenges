@@ -1,13 +1,11 @@
-import React from 'react'
-import SideMenu from './SideMenu'
-import MainSection from "./MainSection"
-import styles from "../styles/App.module.css"
+import SideNav from "./SideNav"
+import MainArea from "./MainArea"
 
 function App() {
   return (
-    <div className={styles.app__main}>
-        <SideMenu/>
-        <MainSection/>
+    <div className="flex container mx-auto">
+        <SideNav />
+        <MainArea />
     </div>
   )
 }
