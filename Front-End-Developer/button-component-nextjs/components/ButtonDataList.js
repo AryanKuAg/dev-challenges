@@ -3,7 +3,7 @@ const buttonDataList = [
     {
       text: "<Button />",
       title: "Default",
-      style: "btn text-black-400 bg-grey-300",
+      style: "btn text-black-400 bg-blue-300",
     },
     {
       text: "&:hover, &:focus",

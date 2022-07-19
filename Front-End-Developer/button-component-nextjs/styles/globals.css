@@ -4,7 +4,7 @@
 
 @layer components {
   .btn {
-    @apply font-bold py-2 px-4 rounded-full;
+    @apply font-bold py-2 px-4 rounded;
   }
 }
 
@@ -24,4 +24,8 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.template__button {
+  min-width: 350px;
 }
